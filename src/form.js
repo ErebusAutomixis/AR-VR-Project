@@ -2,6 +2,7 @@
 export default function Form() {
   const day = new Date();
   const getday = day.getDay();
+
   return (
     <div className=" rounded rounded-lg rounded-2xl border border-gray-400 widge">
       <div class="flex flex-row ">
